@@ -7,7 +7,7 @@ from twilio.rest import Client
 # _________________________________Stock Data api
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-API_KEY = "P97AMBQ53BKU7KUO"
+API_KEY = "API KEY"
 URL = "https://www.alphavantage.co/query"
 TIME_INTERVAL = "60min"
 PARAMETERS = {
@@ -18,7 +18,7 @@ PARAMETERS = {
 }
 
 # ________________________________News Catcher api
-NEWS_API_KEY = "lzxHsG2uxonqLqKuwhavBBb2HbMznYL5BM5LCyPa"
+NEWS_API_KEY = "NEWS API KEY"
 NEWS_API_ENDPOINT ="https://api.marketaux.com/v1/news/all"
 
 NEWS_PARAMETER = {
@@ -30,8 +30,8 @@ NEWS_PARAMETER = {
 }
 
 # ___________________________Twillio api
-ACCOUNT_SID = "ACd5bb800bc1639d0f4c61c57d83310403"
-AUTH_TOKEN = "4aa70083528afc79ac0615cb38b4bf71"
+ACCOUNT_SID = "ACCOUNT SID"
+AUTH_TOKEN = "AUTH TOKEN"
 
 # -----------------------------EXTRACTING CURRENT DATE FROM DATETIME MODULE-------------------------------#
 date = dt.datetime.now()
